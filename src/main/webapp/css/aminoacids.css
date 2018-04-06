@@ -1,0 +1,248 @@
+h1 {
+	font-size: 22px;
+}
+
+body {
+	width: 90%;
+	font-family: sans-serif;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+p, label, div.form-field {
+	font-size: 14px;
+}
+
+header {
+	margin: 25px;
+	text-align: center;
+}
+
+ul.header {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.header {
+	display: inline-block;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+button {
+	background-color: black;
+}
+
+button.home:hover {
+	background-color: White;
+}
+
+button.head:hover {
+	background-color: BlanchedAlmond;
+}
+
+button.aaa:hover {
+	background-color: orange;
+}
+
+button.paa:hover {
+	background-color: DeepSkyBlue;
+}
+
+button.naa:hover {
+	background-color: salmon;
+}
+
+button.acaa:hover {
+	background-color: LightGreen;
+}
+
+button.baa:hover {
+	background-color: gold;
+}
+
+head.header {
+	text-align: center;
+}
+
+p.hp {
+	text-align: left;
+}
+
+div.buttons {
+	overflow: hidden;
+	margin: 0px;
+	width: 100%;
+	padding: 10px;
+}
+
+ul.buttons {
+	margin: 0px;
+	padding: 0px;
+}
+
+img.structure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+body.polar {
+	background-color: DeepSkyBlue;
+}
+
+body.nonpolar {
+	background-color: salmon;
+}
+
+body.mmHome {
+	background-color: black;
+	color: white;
+}
+
+body.acidic {
+	background-color: LightGreen;
+}
+
+body.basic {
+	background-color: gold;
+}
+
+body.all {
+	background-color: orange;
+}
+
+body.details {
+	background-color: Plum;
+}
+
+td.aalist {
+	border-style: solid;
+	width: 100%;
+}
+
+ul.aaList {
+	list-style-type: none;
+}
+
+ul.details {
+	list-style: none;
+	display: inline-block;
+	border-style: solid;
+}
+
+li.name {
+	font-size: 3em;
+}
+
+div.new {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+li.quote {
+	font-property: italic;
+}
+
+h1.microMolecules {
+	text-align: center;
+}
+
+ul.mM {
+	list-style: none;
+}
+
+.firstItem {
+	position: relative;
+	width: 50%;
+}
+
+.secondItem {
+	position: relative;
+	width: 50%;
+}
+
+.image_styles {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+
+.firstItem:hover .overlay {
+	opacity: 1;
+}
+
+.secondItem:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-auto-rows: 100px;
+	grid-template-areas: "a a a a b b b b" "a a a a b b b b"
+		"c c c c d d d d" "c c c c d d d d";
+	align-items: center;
+	grid-gap: 10px;
+	grid-border: solid;
+	border-color: white;
+	justify-items: center;
+}
+
+.firstItem {
+	grid-area: a;
+}
+
+.secondItem {
+	grid-area: b;
+}
+
+.microMolecules{
+	text-align: center;
+	font-size: 3em;
+	
+}
+
+.phome{
+	text-align: center;
+	font-size: 2em;
+}
